@@ -33,7 +33,7 @@ git clone https://github.com/harness/ff-apex-server-sdk
 2. Deploy the SDK to Salesforce.
 
 ```bash
-cd apex-server-sdk
+cd ff-apex-server-sdk
 sfdx force:source:deploy --targetusername='YOUR TARGET ORG' --sourcepath='force-app'
 ```
 
