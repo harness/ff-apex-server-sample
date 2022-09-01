@@ -20,7 +20,14 @@ This is a sample app demonstrating APEX Server SDK integration with Feature Flag
 3) Create a client-side sdk key in your environment **COPY the value from the Admin Console to your clipboard since this value will only be displayed once**
 4) Create a boolean feature-flag in the admin console
 5) Replace the values for SDK Key and feature-flag identifier in the example program from step 3 and 4
-6) Run the program from SalesForce DEV console
+6) SalesForce Cache setup
+    * In Setup, enter Platform Cache in the Quick Find box, then select Platform Cache.
+    * Click New Platform Cache Partition.
+    * Give the partition a name (such as the name of your application).
+    * Check Default Partition
+    * Enter 0 for session cache and VALUE for org cache, and then click Save
+    ![Image](https://res.cloudinary.com/hy4kyit2a/f_auto,fl_lossy,q_70/learn/modules/platform_cache/platform_cache_use/images/f46f9dc151432ceb07386f3a27a67ceb_new_partition.png)
+7) Build and Run the program from SalesForce DEV console
 
 ## Build instructions
 

@@ -2,7 +2,8 @@
 String flag = 'bool-flag';
 
 // set cache Namespace and Partition
-FFConfig config = new FFConfig.builder().cacheNamespace('local').cachePartition('basic').build();
+FFOrgCache cache = new FFOrgCache('local', 'basic');
+FFConfig config = new FFConfig.builder().cache(cache).build();
 
 // Set up the target properties.
 FFTarget target = FFTarget.builder().identifier('Harness').name('Harness').build();
